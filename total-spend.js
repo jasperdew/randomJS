@@ -1,0 +1,1 @@
+javascript: var priceClass = document.getElementsByClassName("taskItem-titleWrapper-title");  var total = 0;  function totalPrice(){   for (var i = 0; i < priceClass.length; i++) {     total += Number(priceClass[i].innerText);     }   alert("Totaal uitgegeven bedrag is: € " + total + "\nDit is €" + (total / 2) + " per persoon."); }  totalPrice();
